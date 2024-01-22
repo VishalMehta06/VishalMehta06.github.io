@@ -1,145 +1,134 @@
 html {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+	
+	font-family: 'Calibri';
+	background-color: #000000;
 
-  font-family: 'Calibri';
-  background-color: #acacac;
+	scroll-behavior: smooth;
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
 
-  overflow-x: hidden;
-}
-
-.top {
-  background-color: #f2f2f2;
+	overflow-x: hidden;
 }
 
 .top-nav-bar {
-  overflow: hidden;
-
-  background-color: #333;
+	overflow: hidden;
+	text-align: center;
+	background-color: #000000;
 }
 
 .top-nav-bar a {
-  float: right;
-  text-align: center;
-  padding: 1% 2%;
+	float: left;
+	text-align: center;
+	padding: 1% 2%;
 
-  font-size: 20px;
-  color: #f2f2f2;
-  text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .top-nav-bar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.top-nav-bar {
-  text-align: center;
+	background-color: #ffffff;
+	color: black;
 }
 
 .container-top-title {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  position: relative;
+	position: relative;
+	text-align: center;
+	height: 92vh;
 }
 
 .container-top-title img {
-  width: 60%;
-  height: 30%;
-  margin-left: 2%;
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+	object-fit: fill;
 }
 
 .top-title {
-  position: absolute;
-  top: 50%;
-  right: 11%;
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%, -50%);
 
-  font-size: 250%;
+	font-size: 750%;
+
+	margin-top: 15%;
+
+	color: transparent;
+	background-image: linear-gradient(45deg, #ff0000, #ffee00);
+	background-size: 100%;
+	background-clip: text;
 }
 
 .top-title-hr {
-  border: 1px solid black;
-  width: 130%;
-  margin-left: -15%;
+	border: 5px solid #ff0000;
+	width: 130%;
+
+	margin-left: -15%;
+	margin-top: -0.05%;
+	margin-bottom: 20%;
+
+	box-shadow: 5px 5px 0px #ffee00;
 }
 
 .top-subtitle {
-  position: absolute;
-  top: 50%;
-  right: 13%;
-  margin-top: 6%;
-
-  font-size: 120%;
-  font-family: 'Brush Script MT';
-}
-
-.galleries {
-  padding: 3% 0%;
-
-  background-color: #5e677df8;
-}
-
-.container-gallery {
-  margin: 3% 15%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: #ffffff;
-}
-
-.gallery {
-  margin: 2%;
-  float: none;
-  width: 25%;
-  padding: 5px;
-
-  border: 3px solid #a0a0a0;
-}
-
-.gallery a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.gallery:hover {
-  border: 3px solid #000000;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-.desc {
-  padding: 15px;
-  text-align: center;
+	font-size: 40%;
 }
 
 .container-about {
-  display: flex;
-  padding: 3%;
+	display: flex;
+	padding: 3%;
 
-  background-color: #ffffff;
+	background-color: #ffffff;
+}
+
+.about-text hr {
+	margin-top: -2%;
+	margin-bottom: 5%;
 }
 
 .about-text {
-  float: right;
-  padding: 3%;
+	float: right;
+	padding: 3%;
 }
 
 .about-image {
-  float: left;
-  padding: 3%;
+	float: left;
+	position: relative;
+
+	padding: 3%;
+	margin: 0% 10%;
 }
 
-.about-read-more {
-  text-decoration: none;
+.about-image img {
+	position: relative;
+	object-fit: contain;
+	height: 100%;
+	width: 100%;
+}
+
+.container-contact {
+	position: relative;
+	padding: 1.5%;
+
+	color: white;
+}
+.container-contact img {
+	float: left;
+	position: relative;
+    top: 0;
+    left: 39.5%;
+	padding: 1%;
+
+	height: 3%;
+	width: 3%;
+	object-fit: contain;
 }
